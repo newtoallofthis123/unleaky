@@ -1,0 +1,77 @@
+<!-- Unleaky Website -->
+<!-- If you are reading this, thanks for taking interest in the website, to know more about me, have a look a my website https://newtoallofthis123.github.io/About -->
+<!-- NoobScience -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="assets/icon.ico" type="image/x-icon">
+    <title>Title</title>
+</head>
+<nav>
+    <ul>
+        <li class="nav_item"><a href="https://newtoallofthis123.github.io/unleaky" class="nav_title">Unleaky</a></li>
+        <div class="nav">
+            <li class="nav_item"><a href="https://github.com/newtoallofthis123/unleaky" class="nav_link" target="_blank">Github</a></li>
+            <li class="nav_item"><a href="https://github.com/newtoallofthis123/unleaky/releases" class="nav_link" target="_blank">Download</a></li>
+            <li class="nav_item"><a href="mailto:noobscience123@gmail.com" class="nav_link" target="_blank">Contact</a></li>
+        </div>
+    </ul>
+</nav>
+<body>
+    <hr>
+    <p class="content">Unleaky is a simple cli password manager written in python and is my first attempt to use sqlite3. Unleaky uses a simple database to store your passwords. One disclaimer though is that unleaky stores all the passwords <span style="color: rgb(228, 40, 171);">UNENCRYPTED</span>. Be sure to keep that in mind and use unleaky for not very important passwords or just to try it or learn sqlite3. Unleaky is registered under the <a href="https://newtoallofthis123.github.io/license" class="link" target="_blank">MIT License</a>, hence you are free to use it as you like. Just try to credit me 😉(You don't have to, that is why the winky face, I spoiled it 😐).</p>
+    <hr>
+    <div class="img_div">
+        <img src="assets/unleaky_example.png" alt="Unleaky Example">
+    </div>
+    <hr>
+    <h1 class="heading">Guide</h1>
+    <p class="content">All of the unleaky commands can be seen by the help command. To execute any command, first you should enter the master password which is <span style="color: rgb(236, 48, 180);">HelloWorld</span>. Once you enter that, you can use commands, you can also change the master password with the admin command. The major commands are:</p>
+    <p class="content">1. read</p>
+    <p class="content">The read command shows you all the entries of the database formatted nicely</p>
+    <p class="content">2. new</p>
+    <p class="content">The new command helps you create a new entry, you enter the username and get the option to enter your own password or generate it with the strong password generator included in unleaky</p>
+    <p class="content">3. update</p>
+    <p class="content">The update command updates the existing entries.</p>
+    <p class="content">4. copy</p>
+    <p class="content">The copy command copies the password of the username you provide</p>
+    <p class="content">5. quit</p>
+    <p class="content">As unleaky prints the passwords on the terminal, once you use Ctrl+C or Ctrl+Z to quit the application, the passwords are still retained, hence if you use the quit command, it clears the screen and quits securely.</p>
+    <h1 class="heading">Tutorial</h1>
+    <p class="content">Watch the video below to learn more about unleaky</p>
+    <div style="text-align: center;">
+        <video width="800" height="480" autoplay controls>
+          <source src="assets/tutorial_v.1.1.mp4" type="video/mp4">
+          <source src="assets/tutorial_v.1.1.mp4" type="video/ogg">
+        Your browser does not support the video tag.
+        </video>
+    </div>
+    <hr>
+    <script>
+        var i = 0;
+        var txt = 'Random Text';
+        var speed = 100; 
+
+        function typeWriter() {
+        if (i < txt.length) {
+            document.getElementById("demo").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+        }
+        }
+        typeWriter()
+    </script>
+</body>
+<footer>
+    <ul>
+        <li class="nav_item"><a href="https://newtoallofthis123.github.io/About" class="nav_link" target="_blank">©NoobScience</a></li>
+        <li class="nav_item"><a href="https://github.com/newtoallofthis123/unleaky" class="nav_link" target="_blank">Github</a></li>
+        <li class="nav_item"><a href="https://github.com/newtoallofthis123/unleaky/releases" class="nav_link" target="_blank">Download</a></li>
+        <li class="nav_item"><a href="mailto:noobscience123@gmail.com" class="nav_link" target="_blank">Contact</a></li>
+    </ul>
+</footer>
+</html>
